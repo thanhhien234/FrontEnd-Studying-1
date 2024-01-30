@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>히엔</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class ="main-container">
+        <div class = "sub-container">
+            <h3>Progress chart</h3>
+            <div class="progress-chart-content">
+                <h4>HTML/CSS</h4>
+                <div class="progress-bar">
+                    <div class="progress-bar-inner"></div>
+                    <span class="data">62%</span>
+                </div>
+            </div>
+            <div class="progress-chart-content">
+                <h4>JavaScript</h4>
+                <div class="progress-bar">
+                    <div class="progress-bar-inner"></div>
+                    <span class="data">26%</span>
+                </div>
+            </div>
+            <div class="progress-chart-content">
+                <h4>Sass</h4>
+                <div class="progress-bar">
+                    <div class="progress-bar-inner"></div>
+                    <span class="data">43%</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="sub-container">
+            <h3>Donut chart</h3>
+            <div class="donut-chart-content">
+                <div class="donut-chart-inner" data-percent="60"></div>
+            </div>
+        </div>
+        
+        <div class="sub-container">
+            <h3>Toggle Menu</h3>
+            <div class="toggle-menu">
+                <button class="toggle-menu-button">
+                    <span class="material-symbols-outlined">
+                        menu
+                    </span>
+                </button>
+                <ul class="toggle-menu-content" id="toggle-menu-content">
+                    <li>1번 메뉴</li>
+                    <li>2번 메뉴</li>
+                    <li>3번 메뉴</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="sub-container">
+            <h3>Carousel</h3>
+            <div class="carousel-content">
+                <div class="content-inner">
+                    <div class="image">
+                        <img src="assets/img1.jpg" alt="1">
+                    </div>
+                    <div class="image">
+                        <img src="assets/img2.jpg" alt="2">
+                    </div>
+                    <div class="image">
+                        <img src="assets/img3.jpg" alt="3">
+                    </div>
+                    <div class="image">
+                        <img src="assets/img4.jpg" alt="4">
+                    </div>
+                </div>
+                <button class="left-arrow">
+                    <span class="material-symbols-outlined">
+                        chevron_left
+                    </span>
+                </button>
+                <button class="right-arrow">
+                    <span class="material-symbols-outlined">
+                        chevron_right
+                    </span>
+                </button>
+            </div>
+        </div>
+        
+        <div class="sub-container">
+            <h3>Alert Buttons</h3>
+            <div class="button-container">
+                <button class="red-btn">빨강</button>
+                <button class="green-btn">초록</button>
+                <button class="blue-btn">파랑</button>
+            </div>
+        </div>
+    </div>
+    <div class="alert-container">
+        <div class="alert-content">
+            <!-- alert message -->
+        </div>
+    </div>
+    <script src="index.js" type="module"></script>
+    <script src="data.js"></script>
+</body>
+</html>
