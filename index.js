@@ -1,11 +1,13 @@
 //Progress chart data
-const datas = document.querySelectorAll(".data");
-const progressBars = document.querySelectorAll(".progress-bar-inner");
+function updateProgressChart(data) {
+    const datas = document.querySelectorAll(".data");
+    const progressBars = document.querySelectorAll(".progress-bar-inner");
+
     datas.forEach((dataElement, index) => {
         dataElement.textContent = `${data[index]}%`;
         progressBars[index].style.width = `${data[index]}%`;
-    }
-);
+    });
+}
 
 //Toggle menu
 document.querySelector(".toggle-menu-button").addEventListener("click", function() {
